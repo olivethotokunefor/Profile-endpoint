@@ -16,7 +16,7 @@ app.get("/me", async (req, res) => {
       user: {
         email: "olivethotokunefor@gmail.com",
         name: "Oliveth Otokunefor",
-        stack: "Spring boot/Express",
+        stack: "Express",
       },
       timestamp: new Date().toISOString(),
       fact: data.fact,
@@ -29,7 +29,7 @@ app.get("/me", async (req, res) => {
       user: {
         email: "olivethotokunefor@gmail.com",
         name: "Oliveth Otokunefor",
-        stack: "Spring boot/Express",
+        stack: "Express",
       },
       timestamp: new Date().toISOString(),
       fact: "Could not fetch cat fact right now.",
